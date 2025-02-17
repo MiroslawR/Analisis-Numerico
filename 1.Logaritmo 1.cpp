@@ -14,10 +14,10 @@ int main ()
 	double base = 0;
 	double error = 0;
     double num = 0;
-  cout <<"¿cual es l limite inferior?"<<endl;
+  cout <<"Â¿cual es l limite inferior?"<<endl;
   cin>>inf;
   
-   cout <<"¿cual es limite superior?"<<endl;
+   cout <<"Â¿cual es limite superior?"<<endl;
   cin>>sup;
   
    cout <<"ingresa la base "<<endl;
