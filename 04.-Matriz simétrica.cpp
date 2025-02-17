@@ -32,7 +32,7 @@ return EXIT_FAILURE;
 	cout << endl;}	
 	
 	
-	//Comprobando si la matriz es simétrica.
+	//Comprobando si la matriz es simÃ©trica.
  
 
  //genero la traspuesta
