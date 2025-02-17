@@ -9,7 +9,7 @@ using namespace std;
 int main(int argc, char** argv) {
 	int n,i,j;
 	
-	cout <<"ingrese la dimension de la matriz nxn"	<< endl;	
+	cout <<"Ingrese la dimension de la matriz nxn"	<< endl;	
 cin>>n;
 	int Matriz[n][n], MatrizT[n][n],MatrizV[n][n],Matriz90[n][n],MatrizH[n][n],Matriz180[n][n],	MatrizD[n][n],Matriz360[n][n],Matriz270[n][n];
 		
@@ -111,7 +111,7 @@ V.close();
   Matriz90
   [i][j]=Matriz[i][n-1-j];
   
- cout<<"\n La Matrizde 90 grados es  :"<<endl;
+ cout<<"\n La Matriz de 90 grados es  :"<<endl;
  	for (int i=0; i<n; i++)
     {for (int j=0; j<n; j++)
        { Matriz90[i][j]=0;
