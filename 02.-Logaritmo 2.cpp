@@ -16,10 +16,10 @@ int main ()
 	double error = 0;
     double num = 0;
     
- cout <<"ingresa la base "<<endl;
+ cout <<"Ingresa la base "<<endl;
   cin>>base;
   
-   cout <<"ingresa el marjen de error deseado"<<endl;
+   cout <<"Ingresa el marjen de error deseado"<<endl;
   cin>>error;
 
     double k = (sup + inf) / 2;
