@@ -46,8 +46,8 @@ int main(int argc, char** argv) {
 		cout << lineax[vu] << " " << lineay[vu] << endl;
 	}
 	int m = 0;
-	//Se pide el grado e la ecuación
-	cout << "Datos cargados, por favor diga el grado de su ecuación" << endl;
+	//Se pide el grado e la ecuaciÃ³n
+	cout << "Datos cargados, por favor diga el grado de su ecuaciÃ³n" << endl;
 	cout << "grado" << endl;
 	cin >> m;
 	m++;
@@ -97,20 +97,20 @@ int main(int argc, char** argv) {
 		}
 		cout << endl;
 	}
-	//Se hace eliminación gauss jordan
+	//Se hace eliminaciÃ³n gauss jordan
 	for(int d = 0;d < m;d++)
 	{
 		//Se almacena el primer valor diferente de cero en una variable extra
 		double g = a[d][d];
-		//Se divide todo el renglon entre el primer valor diferente de cero dejándolo normalizado
+		//Se divide todo el renglon entre el primer valor diferente de cero dejÃ¡ndolo normalizado
 		for(int f = 0; f < m + 1;f++)
 		{
 			a[f][d] = a[f][d] / g;
 		}
-		//Se resta el renglon normalizado a todos los  demás
+		//Se resta el renglon normalizado a todos los  demÃ¡s
 		for(int f = 0; f < m;f++)
 		{
-			//Se almacena el primer valor diferente de cero de cada uno de los renglones que a los que se les restará el renglón normalizado
+			//Se almacena el primer valor diferente de cero de cada uno de los renglones que a los que se les restarÃ¡ el renglÃ³n normalizado
 			double gh = a[d][f];
 			for(int w = 0;w < m + 1;w++)
 			{
@@ -131,7 +131,7 @@ int main(int argc, char** argv) {
 		}
 		cout << endl;
 	}
-	//Se muestra la ecuación limpia
+	//Se muestra la ecuaciÃ³n limpia
 	for(int alfa = 0; alfa < m;alfa++)
 	{
 		if(alfa == 0)
